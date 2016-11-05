@@ -1,0 +1,5 @@
+﻿(function (Services, undefined){
+     APP.Modules.APP.service("ExampleService", ['$http', '$localStorage', function ($http, $localStorage){
+      
+    }]);
+}(APP.Services = APP.Services || {}));

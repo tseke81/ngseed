@@ -1,0 +1,32 @@
+{
+  "name": "ngseed",
+  "version": "1.0.0",
+  "description": "Basic Seed Project for AngularJs",
+  "main": "gulpfile.js",
+  "postinstall": "npm run build",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-messages": "^1.5.8",
+    "angular-touch": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "ngstorage": "^0.3.11"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-ngdocs": "^0.3.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-copy": "^0.0.2",
+    "run-sequence": "^1.2.2"
+  }
+}

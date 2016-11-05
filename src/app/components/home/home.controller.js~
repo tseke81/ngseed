@@ -1,0 +1,12 @@
+﻿(function (Controllers, undefined){
+    APP.Modules.APP.controller("HomePageCtrl", ['$scope', function ($scope){
+      var vm = this;
+      
+
+        initController();
+
+        function initController() {
+        }
+
+    }]);
+}(APP.Controllers = APP.Controllers || {}));

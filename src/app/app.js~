@@ -1,0 +1,21 @@
+(function(APP, undefined){
+
+    /** 
+     * @ngdoc function
+     * @name ITP
+     * @id ITP
+     * @description
+     * 
+     * Setup APP application parameters for AngularJs
+    */
+    APP.version         = "1.0.0";
+    APP.PartialsPath    = "partials/";
+    APP.Factory         = {};
+    APP.Modules         = {};
+    APP.Configs         = {};
+    APP.Services        = {};
+    APP.Run             = {};
+    APP.Controllers     = {};
+    APP.Directives      = {};
+
+}(window.ITP = window.ITP || {}));
